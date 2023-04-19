@@ -1,0 +1,10 @@
+[
+VAR x int;
+SET x 1;
+FUN REC g int [var x : int,y : bool]  [ 
+    IF y 
+        [RETURN (g (adr x) false)]
+        [RETURN x] 
+];
+ECHO (g (adr x) true)
+]

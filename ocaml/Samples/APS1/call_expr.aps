@@ -1,0 +1,8 @@
+[
+PROC REC g [x : int,y : bool] [ 
+    IF y 
+        [CALL g x false]
+        [ECHO x] 
+];
+CALL g 1 true
+]

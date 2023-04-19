@@ -1,0 +1,7 @@
+[
+    VAR x int;
+    SET x 1;
+    VAR y int;
+    SET y (sub x 1);
+    ECHO x
+]

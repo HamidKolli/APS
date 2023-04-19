@@ -1,0 +1,8 @@
+[
+VAR x int;
+SET x 1;
+FUN g int [var x : int]  [ 
+    RETURN x
+];
+ECHO (g (adr x))
+]

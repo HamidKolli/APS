@@ -1,0 +1,10 @@
+[VAR x int;
+SET x 1 ;
+IF true 
+    [CONST y int 3 ; 
+            WHILE (lt x y) [RETURN 4]] 
+    [CONST y int 2 ; ECHO y];
+
+ECHO 1
+
+]

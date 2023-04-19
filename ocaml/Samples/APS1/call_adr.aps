@@ -1,0 +1,9 @@
+[VAR r int;
+PROC REC g [var x : int,y : bool] [ 
+    IF y 
+        [CALL g (adr x) false]
+        [ECHO x] 
+];
+SET r 1;
+CALL g (adr r) true
+]

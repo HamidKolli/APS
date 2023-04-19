@@ -1,0 +1,1 @@
+[FUN REC f int [x : int,y: bool] (if y (f x false) x); ECHO (f 1 true)]

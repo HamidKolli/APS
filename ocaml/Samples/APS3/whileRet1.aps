@@ -1,0 +1,5 @@
+[
+WHILE false [RETURN 4]
+;
+ECHO 1
+]

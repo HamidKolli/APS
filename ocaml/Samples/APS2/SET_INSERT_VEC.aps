@@ -1,0 +1,6 @@
+[
+VAR x (vec int);
+SET x (alloc 4);
+SET (nth x 2) 1;
+ECHO 1
+]

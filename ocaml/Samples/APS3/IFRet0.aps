@@ -1,0 +1,8 @@
+[
+VAR x int;    
+IF true 
+        [RETURN 1]
+        [SET x 0] 
+;
+ECHO 1
+]

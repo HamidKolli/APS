@@ -1,0 +1,5 @@
+[
+VAR x (vec int);
+SET x (alloc 4);
+ECHO 1
+]

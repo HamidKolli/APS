@@ -1,0 +1,4 @@
+[
+VAR x (vec int);
+ECHO 1
+]

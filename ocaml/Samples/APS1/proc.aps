@@ -1,0 +1,6 @@
+[PROC g [var x : int,y : bool] [ 
+    IF y 
+        [ECHO 2]
+        [ECHO x] 
+];
+ECHO 1]

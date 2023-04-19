@@ -1,0 +1,4 @@
+[
+CONST x (vec int) (alloc 3);
+ECHO 1
+]

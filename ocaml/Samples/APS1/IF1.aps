@@ -1,0 +1,4 @@
+[IF false 
+        [ECHO 0]
+        [ECHO 1] 
+]

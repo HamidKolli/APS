@@ -1,0 +1,4 @@
+[FUN g int [var x : int] [ 
+    RETURN x
+];
+ECHO 1]
